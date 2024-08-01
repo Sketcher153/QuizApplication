@@ -29,7 +29,7 @@ public class QuestionPart
         questions[8] = new Question(9, "Which of the following OS supports Java ? ", "Windows", "Linux", 
          "Mac", "All of the above", "All of the above"); 
         questions[9] = new Question(10, "Which of these are thread safe in nature? ", "String", "StringBuffer", 
-         "StringBuilder", "Both A and B", "Both A anc B"); 
+         "StringBuilder", "Both A and B", "Both A and B"); 
     } 
 
     // Displaying the questions. 
@@ -63,6 +63,6 @@ public class QuestionPart
                 ++score;
             }
         }
-        System.out.println("Score obtained : " + (score + 1));
+        System.out.println("Score obtained : " + score);
     }
 }
