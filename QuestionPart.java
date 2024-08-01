@@ -18,8 +18,8 @@ public class QuestionPart
          "Both", "None", "True"); 
         questions[3] = new Question(4, "Which of the following is used to compile the java code? ", "GCC", "javaC",
          "javac", "javaClang", "javac"); 
-        questions[4] = new Question(5, "What is the size of the String datatype in Java? ", "2 bytes", "{-2 to the power of 15, 2 to the power of 15 - 1}",
-         "16 bits", "{0, 2 to the power of 15 - 1}", "{0, 2 to the power of 15 - 1}"); 
+        questions[4] = new Question(5, "What is the size of the String datatype in Java? ", "2 bytes", "{-2 to the power of 31, 2 to the power of 31 - 1}",
+         "16 bits", "{0, 2 to the power of 31 - 1}", "{0, 2 to the power of 31 - 1}"); 
         questions[5] = new Question(6, "How many primitive datatype does java contain? ", "4", "2", 
          "8", "Above 8", "8"); 
         questions[6] = new Question(7, "What does JVM stands for? ", "Java Volatile Machine", "Java Virtual Machine", 
